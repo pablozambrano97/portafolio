@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
 main section{
     background-image: url(../img/fondo.jpg);
     opacity: 1;
@@ -12,4 +17,21 @@ main h1{
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+article div{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+article img{
+    height: 60px; 
+    width: 60px;
+}
+
+article h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
