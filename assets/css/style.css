@@ -1,37 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 
-body{
+*{
     font-family: 'Roboto', sans-serif;
 }
-main section{
-    background-image: url(../img/fondo.jpg);
-    opacity: 1;
-    background-position: center;
-    background-size: cover;
-    height: 55em;
+
+
+.alpha{
+    background-color: #1aa179 !important;
 }
 
-main h1{
+main{
+    background-color: #dee2e6;
+}
+section{
+    background-image: url(../imgs/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    height: 30em;
     color: white;
-    display: flex;
+    text-align: end;
+}
+
+section h1{
+    justify-content: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h2{
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 article div{
+    display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    gap: 10px;
 }
 
 article img{
-    height: 60px; 
-    width: 60px;
+    width: 8em !important
 }
 
-article h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer{
+    color: black !important;
+}
+
+.tamaño{
+    width: 70px;
+}
+
+.alto{
+    height: 347px;
 }
