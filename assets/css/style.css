@@ -17,7 +17,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1;
-    height: 30em;
+    height: 15em;
     color: white;
     text-align: end;
 }
@@ -54,4 +54,8 @@ footer{
 
 .alto{
     height: 347px;
+}
+
+#color-texto{
+    color: white;
 }
